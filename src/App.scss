@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+
+  .save-btn {
+    background-color: SeaGreen;
+    color: white;
+    margin-top: 10px;
+
+    &:hover {
+      color: white;
+      background-color: darkGreen;
+    }
+  }
+}

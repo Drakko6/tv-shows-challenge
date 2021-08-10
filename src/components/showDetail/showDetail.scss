@@ -1,0 +1,45 @@
+@import "../../index.scss";
+
+.show-detail {
+  padding: 25px;
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .show-title {
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .detail-image {
+    width: 35%;
+  }
+
+  .summary-container {
+    height: 180px;
+    overflow-y: auto;
+  }
+
+  .toggle-favorites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    button {
+      margin: 0;
+      margin-bottom: 1em;
+    }
+  }
+
+  .link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

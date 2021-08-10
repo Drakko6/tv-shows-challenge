@@ -1,0 +1,41 @@
+@import "../../index.scss";
+
+.list {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+  overflow-y: auto;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+
+  .list-container {
+    width: 100%;
+  }
+
+  .list-item {
+    text-align: start;
+    display: flex;
+    background-color: white;
+  }
+
+  .show-image {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .favorite {
+    color: $danger;
+    cursor: pointer;
+  }
+
+  .no-favorite {
+    color: $grey;
+    cursor: pointer;
+
+    &:hover {
+      color: $danger;
+    }
+  }
+}

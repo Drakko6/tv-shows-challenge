@@ -1,0 +1,25 @@
+.basic-modal {
+  .children-container {
+    outline: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    height: 90vh;
+    width: 50%;
+  }
+
+  .close-container {
+    display: flex;
+  }
+
+  .close-icon {
+    margin-inline-start: auto;
+    padding: 6px;
+    color: crimson;
+    cursor: pointer;
+
+    :hover {
+      color: red;
+    }
+  }
+}

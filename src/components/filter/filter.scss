@@ -1,0 +1,20 @@
+@import "../../index.scss";
+
+.filter {
+  display: block;
+
+  .btn-view-favorites {
+    margin-top: 20px;
+    background-color: $light-blue;
+    color: $dark;
+
+    &:hover {
+      color: white;
+      background-color: $action;
+    }
+  }
+
+  .search-bar {
+    background-color: white;
+  }
+}
